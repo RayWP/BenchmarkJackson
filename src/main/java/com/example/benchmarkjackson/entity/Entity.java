@@ -34,4 +34,13 @@ public class Entity {
         this.age = age;
         this.isActive = isActive;
     }
+
+    @Override
+    public String toString() {
+        return "Entity{" +
+                "id='" + id + '\'' +
+                ", age=" + age +
+                ", isActive=" + isActive +
+                '}';
+    }
 }
